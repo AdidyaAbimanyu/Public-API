@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Universitas Indonesia",
+    "location": "Depok, West Java",
+    "established": 1950,
+    "website": "http://www.ui.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 2,
+    "name": "Institut Teknologi Bandung",
+    "location": "Bandung, West Java",
+    "established": 1920,
+    "website": "http://www.itb.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 3,
+    "name": "Universitas Gadjah Mada",
+    "location": "Yogyakarta",
+    "established": 1949,
+    "website": "http://www.ugm.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 4,
+    "name": "Universitas Airlangga",
+    "location": "Surabaya, East Java",
+    "established": 1954,
+    "website": "http://www.unair.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 5,
+    "name": "Universitas Brawijaya",
+    "location": "Malang, East Java",
+    "established": 1963,
+    "website": "http://www.ub.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 6,
+    "name": "Bogor Agricultural University",
+    "location": "Bogor, West Java",
+    "established": 1963,
+    "website": "http://www.ipb.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 7,
+    "name": "Institut Teknologi Sepuluh Nopember",
+    "location": "Surabaya, East Java",
+    "established": 1960,
+    "website": "http://www.its.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 8,
+    "name": "Universitas Padjadjaran",
+    "location": "Bandung, West Java",
+    "established": 1957,
+    "website": "http://www.unpad.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 9,
+    "name": "Universitas Diponegoro",
+    "location": "Semarang, Central Java",
+    "established": 1957,
+    "website": "http://www.undip.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 10,
+    "name": "Universitas Sebelas Maret",
+    "location": "Surakarta, Central Java",
+    "established": 1976,
+    "website": "http://www.uns.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 11,
+    "name": "Universitas Hasanuddin",
+    "location": "Makassar, South Sulawesi",
+    "established": 1956,
+    "website": "http://www.unhas.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 12,
+    "name": "Universitas Negeri Yogyakarta",
+    "location": "Yogyakarta",
+    "established": 1964,
+    "website": "http://www.uny.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 13,
+    "name": "Universitas Kristen Satya Wacana",
+    "location": "Salatiga, Central Java",
+    "established": 1981,
+    "website": "http://www.satyawacana.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 14,
+    "name": "Universitas Islam Indonesia",
+    "location": "Yogyakarta",
+    "established": 1945,
+    "website": "http://www.uii.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 15,
+    "name": "Universitas Mercu Buana",
+    "location": "Jakarta",
+    "established": 1985,
+    "website": "http://www.mercubuana.ac.id",
+    "accreditation": "B"
+  },
+  {
+    "id": 16,
+    "name": " Universitas Pembangunan Nasional Veteran Jakarta",
+    "location": "Jakarta",
+    "established": 1966,
+    "website": "http://www.upnvj.ac.id",
+    "accreditation": "B"
+  },
+  {
+    "id": 17,
+    "name": "Universitas Negeri Malang",
+    "location": "Malang, East Java",
+    "established": 1954,
+    "website": "http://www.um.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 18,
+    "name": "Universitas Kristen Duta Wacana",
+    "location": "Yogyakarta",
+    "established": 1985,
+    "website": "http://www.ukdw.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 19,
+    "name": "Universitas Jenderal Soedirman",
+    "location": "Purwokerto, Central Java",
+    "established": 1963,
+    "website": "http://www.unsoed.ac.id",
+    "accreditation": "A"
+  },
+  {
+    "id": 20,
+    "name": "Universitas Sultan Ageng Tirtayasa",
+    "location": "Serang, Banten",
+    "established": 2000,
+    "website": "http://www.untirta.ac.id",
+    "accreditation": "B"
+  }
+]
