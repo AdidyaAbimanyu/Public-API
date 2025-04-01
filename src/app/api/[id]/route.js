@@ -1,45 +1,21 @@
-// app/api/[id]/route.js
-import { db } from "@/config/firebase";
-import { doc, getDoc } from "firebase/firestore";
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export async function GET(req, { params }) {
-  const { id } = params;
+  const { id } = await params;
 
   try {
-    const docRef = doc(db, "universities", id);
-    const docSnap = await getDoc(docRef);
+    const university = await prisma.university.findUnique({
+      where: { id: Number(id) },
+    });
 
-    if (!docSnap.exists()) {
-      return new Response(JSON.stringify({ error: "University not found" }), {
-        status: 404,
-        headers: {
-          "Content-Type": "application/json"
-        }
-      });
+    if (!university) {
+      return Response.json({ error: 'University not found' }, { status: 404 });
     }
 
-    const universityData = {
-      id: docSnap.id,
-      name: docSnap.data().name,
-      location: docSnap.data().location,
-      established: docSnap.data().established,
-      website: docSnap.data().website,
-      accreditation: docSnap.data().accreditation
-    };
-
-    return new Response(JSON.stringify(universityData), {
-      status: 200,
-      headers: {
-        "Content-Type": "application/json"
-      }
-    });
+    return Response.json(university);
   } catch (error) {
-    console.error("Error fetching university:", error);
-    return new Response(JSON.stringify({ error: "Failed to fetch university" }), {
-      status: 500,
-      headers: {
-        "Content-Type": "application/json"
-      }
-    });
+    return Response.json({ error: 'Error fetching university' }, { status: 500 });
   }
 }
